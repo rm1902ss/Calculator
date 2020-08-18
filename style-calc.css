@@ -38,6 +38,10 @@ body {
     .calculator-grid button {
         font-size: 1.5rem;
     }
+    
+    #del {
+        font-size: 1rem;
+    }
 }
 
 .calculator-grid button:hover {
