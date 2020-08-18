@@ -32,6 +32,7 @@ body {
     border: 1px solid white;
     outline: none;
     background-color: rgba(255, 255, 255, .75);
+    touch-action: manipulation;
 }
 
 @media (max-width: 480px) {
