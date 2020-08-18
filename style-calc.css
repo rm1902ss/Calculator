@@ -17,6 +17,7 @@ body {
     min-height: 100vh;
     grid-template-columns: repeat(4, 100px);
     grid-template-rows: minmax(120px, auto) repeat(5, 100px);
+    touch-action: manipulation;
 }
 
 @media (max-width: 480px) {
@@ -32,7 +33,6 @@ body {
     border: 1px solid white;
     outline: none;
     background-color: rgba(255, 255, 255, .75);
-    touch-action: manipulation;
 }
 
 @media (max-width: 480px) {
