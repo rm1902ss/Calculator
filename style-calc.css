@@ -7,7 +7,7 @@
 body {
     padding: 0;
     margin: 0;
-    background: linear-gradient(to right, #00aaff, #00ff6c);
+    background: linear-gradient(to right, #f2709c, #ff9472);
 }
 
 .calculator-grid {
@@ -22,8 +22,8 @@ body {
 
 @media (max-width: 480px) {
     .calculator-grid {
-        grid-template-columns: repeat(4, 70px);
-        grid-template-rows: minmax(80px, auto) repeat(5, 70px);
+        grid-template-columns: repeat(4, 85px);
+        grid-template-rows: minmax(110px, auto) repeat(5, 85px);
     }
 }
 
@@ -35,11 +35,12 @@ body {
     background-color: rgba(255, 255, 255, .75);
 }
 
+
 @media (max-width: 480px) {
     .calculator-grid button {
         font-size: 1.5rem;
     }
-    
+
     #del {
         font-size: 1rem;
     }
